@@ -1,0 +1,17 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, amount INTEGER);
+insert into store values (1,"bikes",200);
+insert into store values(2,"chain",50);
+insert into store values(3,"seats",25);
+insert into store values(4,"bike frame",100);
+insert into store values(5,"handle bar",20);
+insert into store values(6,"lights",10);
+insert into store values(7,"pedals",30);
+insert into store values(8,"helmets",35);
+insert into store values(9,"knee pads",15);
+insert into store values(10,"fork",25);
+insert into store values(11,"wheeles",45);
+insert into store values(12,"rim",24);
+insert into store values(13,"pumps",18);
+insert into store values(14,"bike gloves",15);
+insert into store values(15,"breaks",8);
+select sum(amount) from store
